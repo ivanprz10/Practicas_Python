@@ -1,10 +1,5 @@
 #USO SOLO PARA PRUEBAS DE CODIGO EN PYTHON
 #------------------------------------------------------------------------------------------------------------
+lista=[1,2,3,4,5,6,7,8,9]
 
-
-#La fabricacion de un array o lista conlleva la siguiente sintaxis
-
-array = ["HOLA",4,5,True,9,10]#estamos creando una lista con 6 valores de tipo entero
-
-print(array[3])#indicamos que nos muestre el array en su posicion 0
-
+print(lista[-2])
