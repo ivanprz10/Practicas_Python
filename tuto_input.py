@@ -1,3 +1,12 @@
+#USO BASICO DEL INPUT--------------------------------------------------------------------------------------------------------------------------
+# Leer una entrada del usuario
+entrada = input("Ingresa algo: ")
+
+# Mostrar la entrada
+print("Has ingresado:", entrada)
+
+#------------------------------------------------------------------------------------------------------------------------------------------------S
+
 # Leer una cadena de texto
 texto = input("Ingresa una cadena de texto: ")#guardamos en un input la cadena de texto que ingresemos por teclado
 print("Has ingresado la cadena:", texto)

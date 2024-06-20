@@ -1,5 +1,7 @@
 #USO SOLO PARA PRUEBAS DE CODIGO EN PYTHON
 #------------------------------------------------------------------------------------------------------------
-lista=[1,2,3,4,5,6,7,8,9]
 
-print(lista[-2])
+num1 = int(input("Hola!! \ningresa un numero: "))
+num2 = int(input("\ningresa un numero: "))
+res= num1 + num2
+print("el resultado de la suma es: ", res)
