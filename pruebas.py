@@ -1,7 +1,9 @@
 #USO SOLO PARA PRUEBAS DE CODIGO EN PYTHON
 #------------------------------------------------------------------------------------------------------------
 
-num1 = int(input("Hola!! \ningresa un numero: "))
-num2 = int(input("\ningresa un numero: "))
-res= num1 + num2
-print("el resultado de la suma es: ", res)
+x = 4
+if x > 5:
+    print("x es mayor que 5")
+else:
+    print("x es menor que 5")
+
