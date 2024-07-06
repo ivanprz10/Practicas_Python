@@ -72,3 +72,36 @@ longitud = len(lista)
 print(longitud)  # Salida: 5
 
 
+#------------------------------------------------------------------------------------------------------------------------
+#agregar valores a la lista leidos por teclado
+
+lista =[]
+print("hola ingrese la cantidad de valores que tendra su lista: ")
+rango=int(input())
+for i in range(rango):
+    valor = input(f"introduzca el valor ({i+1})")
+    lista.append(valor)
+print(lista)
+
+#------------------------------------------------------------------------------------------------------------------------
+#sumar el contenido de una lista
+lista10=[1,2,3,4,5]
+suma = sum(lista10)
+print(suma)
+
+#sacar el valor maximo de una lista
+lista11=[1,2,10,4,5]
+valMax = max(lista10)
+print(valMax)
+
+#sacar el valor minimo de una lista
+lista10=[1,2,10,4,5]
+valMin = min(lista10)
+print(valMin)
+
+#sacar la media de una lista
+lista10=[1,2,3,4,5]
+media = sum(lista10) / len(lista10)
+print(media)
+
+

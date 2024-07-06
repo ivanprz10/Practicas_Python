@@ -1,11 +1,6 @@
 #USO SOLO PARA PRUEBAS DE CODIGO EN PYTHON
 #---------------------------------------------------------------------------------------------------------------
 
-#crea un bucle infinito
-
-condicion = True
-contador = 0
-while condicion == True:
-    contador = contador + 1
-    print(contador)
-
+lista10=[1,2,3,4,5]
+media = sum(lista10) / len(lista10)
+print(media)
