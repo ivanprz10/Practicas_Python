@@ -26,3 +26,25 @@ class automovil:
 carro1=automovil("audi",300)
 
 carro1.avanzar()
+
+#--------------------------------------------------------------------------------------------------------------------------------------
+class vehiculos:
+    def __init__(self,marca,velocidadMax,modelo):
+        self.marca=marca
+        self.velMax=velocidadMax
+        self.modelo=modelo
+    def atributos(self):
+        print(f"el automovi marca:  {self.marca}")
+        print(f"tiene una velocidad maxima de: {self.velMax}km/hr")
+        print(f"es el modelo: {self.modelo}")
+    def arrancar(self):
+        arrancar = int(self.velMax/12)
+        print(f"el automovil {self.marca} inicia con una velocidad de: {arrancar}km/hr")
+
+class motocicleta(vehiculos):
+    super(vehiculos)
+
+
+carro=vehiculos()
+
+carro.arrancar()
