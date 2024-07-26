@@ -3,7 +3,7 @@ import random
 
 aleatorio = random.randint(1,10)
 
-print("numero secreto es: ",aleatorio)
+# print("numero secreto es: ",aleatorio)
 
 condicion = True
 
