@@ -1,32 +1,34 @@
 #USO SOLO PARA PRUEBAS DE CODIGO EN PYTHON
 #---------------------------------------------------------------------------------------------------------------
-class personas:
-    def __init__(self,nom,edad,sex):
-        self.__nombre=nom
-        self.__edad=edad
-        self.__sexo=sex
 
-    def mostrar (self):
-        print(f"el nombre es: {self.__nombre}")
-        print(f"la edad es: {self.__edad}")
-        print(f"el sexo es: {self.__sexo}")
+tam=int(input("¿de que tamaño sera su lista?"))
+lista=[]
+for i in range(tam):
+    valor = int(input(f"ingrese el valor ({i+1}): "))
+    lista.append(valor)
+
+print(f"la lista orignal es {lista}")
 
 
-    #getter
-    def get_nombre(self):
-        return self.__nombre
-    
+lista.sort()
+print(f"la lista ordenada es {lista}")
+
+lista.reverse()
+print(f"la lista en orden inverso es {lista}")
 
 
 
-    #setter
-    def set_nombre(self,nuevo):
-        self.__nombre=nuevo
 
-obj1=personas("juanito",18,"masculino")
-obj1.mostrar()
-obj1.set_nombre(20)
-obj1.mostrar()
+
+
+
+
+
+
+
+
+
+
 
 
 
