@@ -57,5 +57,3 @@ class persona():
 
 sujeto=persona("ivan","perez","cruz")
 
-sujeto.set_nombre("juan")
-print(sujeto.get_nombre())

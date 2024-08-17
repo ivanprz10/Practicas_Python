@@ -1,18 +1,25 @@
 #USO SOLO PARA PRUEBAS DE CODIGO EN PYTHON
 #-------------------------------------------------------------------------------------------------------------
-def verificar_rango(num1, num2):
-    while not ((1 <= num1 <= 10) and (1 <= num2 <= 10)):
-        print("Uno o ambos números están fuera del rango. Inténtelo de nuevo.")
-        num1 = int(input("Ingrese el primer número (1-10): "))
-        num2 = int(input("Ingrese el segundo número (1-10): "))
-    
-    print("¡Ambos números están dentro del rango!")
+# Crear un diccionario de ejemplo
+mi_diccionario = {'a': 1, 'b': 2, 'c': 3}
 
-# Ejemplo de uso
-num1_inicial = int(input("Ingrese el primer número (1-10): "))
-num2_inicial = int(input("Ingrese el segundo número (1-10): "))
+# Obtener los pares clave-valor del diccionario
+items = mi_diccionario.items()
 
-verificar_rango(num1_inicial, num2_inicial)
+# Mostrar los items
+print(items)  # Salida: dict_items([('a', 1), ('b', 2), ('c', 3)])
+
+# Convertir los items a una lista de tuplas
+items_lista = list(items)
+print(items_lista)  # Salida: [('a', 1), ('b', 2), ('c', 3)]
+
+# Iterar sobre los items del diccionario
+for clave, valor in mi_diccionario.items():
+    print(f"Clave: {clave}, Valor: {valor}")
+
+
+
+
 
 
 
