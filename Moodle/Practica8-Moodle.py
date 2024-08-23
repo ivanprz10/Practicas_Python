@@ -82,7 +82,7 @@ while True:
         precio_final = precios_frutas[fruta] * cantidad
 
         # Muestra el precio final
-        print(f"El precio final de {cantidad} kg de {fruta} es: ${precio_final:.2f}")
+        print(f"El precio final de {cantidad} kg de {fruta} es: ${precio_final}")
     else:
         # Muestra un mensaje de error si la fruta no existe en el diccionario
         print("Error: La fruta no está en el diccionario.")

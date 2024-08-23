@@ -3,9 +3,6 @@
 #o clases de Python sin tener que usar subclases o cambiar el código fuente
 #decorada.
 
-
-
-
 def decorador(func):  
     # Definimos el decorador, que es una función que toma otra función como argumento.
     def envoltura():  
@@ -19,7 +16,7 @@ def decorador(func):
     return envoltura  
     # El decorador retorna la función 'envoltura' en lugar de la función original.
 
-@decorador  
+@decorador
 # Aplicamos el decorador a la función 'saludar'. Es equivalente a 'saludar = decorador(saludar)'.
 def saludar():  
     # Definimos la función 'saludar', que será decorada.
