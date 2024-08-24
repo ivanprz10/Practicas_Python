@@ -1,7 +1,7 @@
 #desde este archivo principal llamado "main.py" llamaremos funciones, variables, listas, tuplas
 #Diccionarios, etc desde otros archivos.py 
 
-#FUNCIONES :)---------------------------------------------------
+#FUNCIONES :)
 
 #importamos desde arch_Dest las funciones de saludar y despedir 
 from arch_Funciones import saludar, despedir
