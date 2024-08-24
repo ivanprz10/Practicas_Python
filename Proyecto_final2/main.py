@@ -1,14 +1,9 @@
 import random
 from diagramas import diagramasAhorcado
 from palabra import palabras
-
-
 palabraAdivinar = random.choice(palabras)
-
 guiones=["-"] * len(palabraAdivinar)
-
 vidas= 7
-
 erradas =[]
 
 while vidas > 0 and "-" in guiones:
@@ -22,7 +17,6 @@ while vidas > 0 and "-" in guiones:
         erradas.append(letra)
         print("esa letra no existe en la palabra :(")
         print(f"letras erradas {erradas}\n")
-        
         vidas -=1
         print(diagramasAhorcado[vidas])
         print(f"vidas restantes = {vidas}")
