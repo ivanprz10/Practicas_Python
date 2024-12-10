@@ -319,6 +319,7 @@ def limpiar_campos():
 ventana = tk.Tk()
 ventana.title("Registro de Alumnos")
 ventana.geometry("500x500")
+ventana.config(bg="#ADD8E6")  
 
 tk.Label(ventana, text="Nombre:").grid(row=0, column=0, padx=10, pady=10)
 entry_nombre = tk.Entry(ventana)
@@ -375,6 +376,8 @@ btn_guardar.grid(row=8, column=2, columnspan=2, pady=20)
 # Agregar botón para mostrar credencial
 btn_credencial = tk.Button(ventana, text="Mostrar Credencial", command=mostrar_credencial)
 btn_credencial.grid(row=3, column=4, columnspan=2, pady=20)
+
+
 
 
 ventana.mainloop()
